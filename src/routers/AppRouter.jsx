@@ -1,5 +1,6 @@
 import { useContext } from "react";
-import { BrowserRouter as Router, Switch } from "react-router-dom";
+// import { BrowserRouter as Router, Switch } from "react-router-dom";
+import { HashRouter as Router, Switch } from "react-router-dom";
 import { AuthContext } from "../auth/AuthContext";
 import { LoginSreen } from "../components/login/LoginSreen";
 import { DashboardRoutes } from "./DashboardRoutes";
